@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+body {
+  background-color: rgb(230, 227, 224);
+}
+.pros-and-cons-wrapper {
+height: 700px;
+width: 45%;
+font-family: sans-serif;
+text-align: center;
+display: flex;
+margin: 5% auto;
+box-shadow: 0 2px 8px;
+flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.list-header {
+height: 15%;
+color: white;
+font-size: 35px;
+font-weight: 700;
+background-color: #32aaf6;
+line-height: 100px;
+}
+.lists-wrapper {
+height: 85%;
+background-color: #fff;
+display: flex;
+top: 15%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.item-list {
+width: 50%;
+border-right-style: groove;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.label {
+height: 10%;
+font-size: 20px;
+font-weight: bold;
+color: #368dd9;
+border-bottom-style: groove;
+line-height: 60px;
 }
 
-.App-link {
-  color: #61dafb;
+span {
+vertical-align: middle;
+line-height: normal;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content-wrapper {
+height: 89%;
+overflow: auto;
+}
+
+ol {
+font-size: 18px;
+font-weight: 800;
+color: #368dd9;
+}
+
+li {
+padding: 10px;
+}
+
+input {
+width: 90%;
+float: left;
+font-size: 20px;
+border: none;
+} 
+
+input:focus {
+outline-color: rgb(80, 183, 235);
 }
